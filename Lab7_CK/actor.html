@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Роберт Дауни-младший</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#sidebar" data-bs-offset="70" tabindex="0">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Роберт Дауни-младший</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключить навигацию">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="actor.html">Основная информация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="films.html">Список фильмов</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-flex">
+        <div >
+            <h5>Навигация</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#carousel">Карусель</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#films">Карточки с фильмами</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#actor-info">Краткая информация об актере</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content p-4">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="i(1).webp" class="d-block w-100" alt="Роберт Дауни-младший">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="i(2).webp" class="d-block w-100" alt="Роберт Дауни-младший">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="i(3).webp" class="d-block w-100" alt="Роберт Дауни-младший">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Следующий</span>
+                </button>
+            </div>
+
+            <div id="films" class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="ironman.webp" class="card-img-top" alt="Плохой санта">
+                        <div class="card-body">
+                            <h5 class="card-title">Железный человек</h5>
+                            <p class="card-text">Миллиардер-изобретатель Тони Старк попадает в плен к Афганским террористам, которые пытаются заставить его создать оружие массового поражения. В тайне от своих захватчиков Старк конструирует высокотехнологичную киберброню, которая помогает ему сбежать. Однако по возвращении в США он узнаёт, что в совете директоров его фирмы плетётся заговор, чреватый страшными последствиями. Используя своё последнее изобретение, Старк пытается решить проблемы своей компании радикально...</p>
+                            <a href="https://www.kinopoisk.ru/film/61237/" class="btn btn-primary">Смотреть на Кинопоиске</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Sherlok.webp" class="card-img-top" alt="Плохой санта 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Шерлок Холмс</h5>
+                            <p class="card-text">Величайший в истории сыщик Шерлок Холмс вместе со своим верным соратником Ватсоном вступают в схватку, требующую нешуточной физической и умственной подготовки, ведь их враг представляет угрозу для всего Лондона.</p>
+                            <a href="https://www.kinopoisk.ru/film/420923/" class="btn btn-primary">Смотреть на Кинопоиске</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="oppengamer.webp" class="card-img-top" alt="Отточенное лезвие">
+                        <div class="card-body">
+                            <h5 class="card-title">Оппенгеймер</h5>
+                            <p class="card-text">История жизни американского физика-теоретика Роберта Оппенгеймера, который во времена Второй мировой войны руководил Манхэттенским проектом — секретными разработками ядерного оружия.</p>
+                            <a href="https://www.kinopoisk.ru/film/4664634/" class="btn btn-primary">Смотреть на Кинопоиске</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="actor-info" class="mt-4">
+                <h5>Краткая информация об актёре</h5>
+                <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#info">Показать/Скрыть информацию</button>
+                <div class="collapse" id="info">
+                    <p>Роберт Дауни-младший родился 4 апреля 1965 года в Нью-Йорке в семье актёра Роберта Дауни-старшего и актрисы Элси Дауни.В пятилетнем возрасте дебютировал в кино, сыграв больного щенка в абсурдистской комедии отца «Загон». Затем в семь лет появился в психоделическом вестерне «Дворец Грисера».Первая известность пришла к актёру в 1992 году после роли легендарного комика в картине «Чаплин». 27 августа 2005 года Дауни-младший женился на Сьюзан Левин. В браке у пары родились сын Экстон (7 февраля 2012) и дочь Эйври (4 ноября 2014).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
